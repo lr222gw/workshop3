@@ -16,13 +16,29 @@ namespace BlackJack.model.rules
             }
             else if (a_dealer.CalcScore() == g_hitLimit)
             {
+
+
+
                 IEnumerable<Card> hand = a_dealer.GetHand();
-                    
+
+
+
+                bool hasAce = false;
+
                 foreach (Card c in hand)
                 {
+
                     if (c.GetValue() == Card.Value.Ace)
-                        return true;
+                    {
+                        //
+                    }
+
+                        
                 }
+
+
+
+
             }
 
             return false;

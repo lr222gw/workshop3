@@ -19,5 +19,13 @@ namespace BlackJack.model.rules
         {
             return new AmericanNewGameStrategy();
         }
+
+        // VÅRAN KOD
+        public IWinnerStrategy GetWinnerRule()
+        {
+            return new PlayerWinsOnEqualStrategy();
+        }
+
+
     }
 }
