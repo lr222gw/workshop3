@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlackJack.model.rules
 {
-    class PlayerWinsOnEqualStrategy : IWinnerStrategy
+    class DealerWinsOnEqualStrategy : IWinnerStrategy
     {        
         public bool IsDealerWinner(Player a_player, Player a_dealer, int g_maxScore)
         {
@@ -17,8 +17,9 @@ namespace BlackJack.model.rules
             {
                 return false;
             }
-            
-            return a_dealer.CalcScore() > a_player.CalcScore();
+
+            return a_dealer.CalcScore() >= a_player.CalcScore();
         }
+        
     }
 }

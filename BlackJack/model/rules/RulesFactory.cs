@@ -24,6 +24,7 @@ namespace BlackJack.model.rules
         public IWinnerStrategy GetWinnerRule()
         {
             return new PlayerWinsOnEqualStrategy();
+            //return new DealerWinsOnEqualStrategy(); //Denna för om dealern ska vinna på samma kort...
         }
 
 

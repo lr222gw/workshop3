@@ -3,3 +3,8 @@ D:\Mina Studier\HT2014\1DV407 - Objektorienterad analys och design\workshop3\Bla
 D:\Mina Studier\HT2014\1DV407 - Objektorienterad analys och design\workshop3\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
 D:\Mina Studier\HT2014\1DV407 - Objektorienterad analys och design\workshop3\BlackJack\obj\Debug\BlackJack.exe
 D:\Mina Studier\HT2014\1DV407 - Objektorienterad analys och design\workshop3\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\Lowe\Documents\GitHub\workshop3\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\Lowe\Documents\GitHub\workshop3\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\Lowe\Documents\GitHub\workshop3\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\Lowe\Documents\GitHub\workshop3\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\Lowe\Documents\GitHub\workshop3\BlackJack\bin\Debug\BlackJack.pdb

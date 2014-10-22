@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-// VÅRAN KOD
 namespace BlackJack.model.rules
 {
+
     interface IWinnerStrategy
     {
-        //bool DoHit(model.Player a_dealer);
+        bool IsDealerWinner(Player a_player, Player a_dealer, int g_maxScore);
+        
     }
 }

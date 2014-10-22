@@ -75,10 +75,12 @@
     <Compile Include="model\Player.cs" />
     <Compile Include="model\rules\AmericanNewGameStrategy.cs" />
     <Compile Include="model\rules\BasicHitStrategy.cs" />
+    <Compile Include="model\rules\DealerWinsOnEqualStrategy.cs" />
     <Compile Include="model\rules\IHitStrategy.cs" />
     <Compile Include="model\rules\InternationalNewGameStrategy.cs" />
     <Compile Include="model\rules\INewGameStrategy.cs" />
-    <Compile Include="model\rules\LinnaeusGameStrategy.cs" />
+    <Compile Include="model\rules\IWinnerStrategy.cs" />
+    <Compile Include="model\rules\PlayerWinsOnEqualStrategy.cs" />
     <Compile Include="model\rules\RulesFactory.cs" />
     <Compile Include="model\rules\SoftSeventeenHitStrategy.cs" />
     <Compile Include="Program.cs" />
