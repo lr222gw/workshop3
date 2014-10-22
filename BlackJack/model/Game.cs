@@ -38,8 +38,8 @@ namespace BlackJack.model
 
         public bool Stand()
         {
-            // TODO: Implement this according to Game_Stand.sequencediagram
-            return true;
+            // VÅRAN KOD
+            return m_dealer.Stand();
         }
 
         public IEnumerable<Card> GetDealerHand()

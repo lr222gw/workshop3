@@ -5,14 +5,15 @@ using System.Text;
 
 namespace BlackJack.view
 {
-    class SwedishView : IView 
+    class SwedishView : IView
     {
         public void DisplayWelcomeMessage()
         {
             System.Console.Clear();
             System.Console.WriteLine("Hej Black Jack Världen");
             System.Console.WriteLine("----------------------");
-            System.Console.WriteLine("Skriv 'p' för att Spela, 'h' för nytt kort, 's' för att stanna 'q' för att avsluta\n");
+            System.Console.WriteLine("Skriv '" + (char)view.Choice.Play + "' för att Spela, '" + (char)view.Choice.Hit + "' för nytt kort, '"
+                                     + (char)view.Choice.Stand + "' för att stanna '" + (char)view.Choice.Quit + "' för att avsluta\n");
         }
         public int GetInput()
         {

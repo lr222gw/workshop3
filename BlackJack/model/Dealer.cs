@@ -67,5 +67,25 @@ namespace BlackJack.model
             }
             return false;
         }
+
+        public bool Stand()
+        {
+            // VÅRAN KOD
+            if (m_deck != null)
+            {
+                ShowHand();
+
+                while (m_hitRule.DoHit(this))
+                {
+                    Card c = m_deck.GetCard();
+                    c.Show(true);
+                    DealCard(c);
+                }
+
+                return true;
+            }
+
+            return false;
+        }
     }
 }

@@ -14,4 +14,12 @@ namespace BlackJack.view
         void DisplayDealerHand(IEnumerable<model.Card> a_hand, int a_score);
         void DisplayGameOver(bool a_dealerIsWinner);
     }
+
+    public enum Choice
+    {
+        Play = 'p',
+        Hit = 'h',
+        Stand = 's',
+        Quit = 'q'
+    }
 }
