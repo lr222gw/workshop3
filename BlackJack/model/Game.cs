@@ -9,16 +9,23 @@ namespace BlackJack.model
     {
         private model.Dealer m_dealer;
         private model.Player m_player;
+        
+        public Game()
+        {
+            m_dealer = new Dealer(new rules.RulesFactory());
+            m_player = new Player();
+        }
 
+        // VÅRAN KOD
         public model.Dealer getDealer()
         {
             return m_dealer;
         }
 
-        public Game()
+        // VÅRAN KOD
+        public model.Player getPlayer()
         {
-            m_dealer = new Dealer(new rules.RulesFactory());
-            m_player = new Player();
+            return m_player;
         }
 
         public bool IsGameOver()

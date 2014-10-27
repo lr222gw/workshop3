@@ -7,6 +7,6 @@ namespace BlackJack.model
 {
     interface IObserver
     {
-        void update(Card c);
+        void UpdateObserver();
     }
 }

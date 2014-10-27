@@ -13,8 +13,9 @@ namespace BlackJack.model
         public void DealCard(Card a_card)
         {
             m_hand.Add(a_card);
-            //observer notifyer? 
-            notify(a_card);
+
+            // VÅRAN KOD 
+            NotifyObservers();
         }
 
         public IEnumerable<Card> GetHand()
@@ -62,17 +63,19 @@ namespace BlackJack.model
             return score;
         }
 
-        public void register(IObserver observer)
+
+        // VÅRAN KOD
+        public void RegisterObserver(IObserver observer)
         {
             listOfObservers.Add(observer);
-
         }
 
-        public void notify(Card a_card)
+        // VÅRAN KOD
+        public void NotifyObservers()
         {
             foreach (IObserver observer in listOfObservers)
             {
-                observer.update(a_card);
+                observer.UpdateObserver();
             }
         }
     }

@@ -44,7 +44,7 @@ namespace BlackJack.model
                 //Card c = m_deck.GetCard();
                 //c.Show(true);
                 //DealCard(c);
-                Card c = dealCard();
+                Card c = DealCard();
                 a_player.DealCard(c);
 
                 return true;
@@ -77,7 +77,7 @@ namespace BlackJack.model
                     //Card c = m_deck.GetCard();
                     //c.Show(true);
                     //DealCard(c);
-                    dealCard();
+                    DealCard();
                 }
 
                 return true;
@@ -85,7 +85,7 @@ namespace BlackJack.model
 
             return false;
         }
-        private Card dealCard()
+        private Card DealCard()
         {
             Card c = m_deck.GetCard();
             c.Show(true);

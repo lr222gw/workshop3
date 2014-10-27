@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlackJack.view
 {
-    class SwedishView : IView, BlackJack.model.IObserver
+    class SwedishView : IView
     {
         public void DisplayWelcomeMessage()
         {
@@ -66,11 +66,6 @@ namespace BlackJack.view
             }
             System.Console.WriteLine("Poäng: {0}", a_score);
             System.Console.WriteLine("");
-        }
-
-        public void update(model.Card c)
-        {
-            DisplayCard(c);
         }
     }
 }
