@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlackJack.view
 {
-    class SwedishView : IView
+    class SwedishView : IView, BlackJack.model.IObserver
     {
         public void DisplayWelcomeMessage()
         {
@@ -21,6 +21,7 @@ namespace BlackJack.view
         }
         public void DisplayCard(model.Card a_card)
         {
+            
             if (a_card.GetColor() == model.Card.Color.Hidden)
             {
                 System.Console.WriteLine("Dolt Kort");
@@ -60,10 +61,16 @@ namespace BlackJack.view
             System.Console.WriteLine("{0} Har: ", a_name);
             foreach (model.Card c in a_hand)
             {
+
                 DisplayCard(c);
             }
             System.Console.WriteLine("Poäng: {0}", a_score);
             System.Console.WriteLine("");
+        }
+
+        public void update(model.Card c)
+        {
+            DisplayCard(c);
         }
     }
 }

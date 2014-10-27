@@ -5,13 +5,16 @@ using System.Text;
 
 namespace BlackJack.model
 {
-    class Player
+    class Player : ISubject
     {
         private List<Card> m_hand = new List<Card>();
+        private List<IObserver> listOfObservers = new List<IObserver>();
 
         public void DealCard(Card a_card)
         {
             m_hand.Add(a_card);
+            //observer notifyer? 
+            notify(a_card);
         }
 
         public IEnumerable<Card> GetHand()
@@ -57,6 +60,20 @@ namespace BlackJack.model
             }
 
             return score;
+        }
+
+        public void register(IObserver observer)
+        {
+            listOfObservers.Add(observer);
+
+        }
+
+        public void notify(Card a_card)
+        {
+            foreach (IObserver observer in listOfObservers)
+            {
+                observer.update(a_card);
+            }
         }
     }
 }

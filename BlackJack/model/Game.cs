@@ -10,6 +10,11 @@ namespace BlackJack.model
         private model.Dealer m_dealer;
         private model.Player m_player;
 
+        public model.Dealer getDealer()
+        {
+            return m_dealer;
+        }
+
         public Game()
         {
             m_dealer = new Dealer(new rules.RulesFactory());
