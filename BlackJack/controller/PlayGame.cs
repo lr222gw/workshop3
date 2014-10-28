@@ -9,7 +9,7 @@ namespace BlackJack.controller
     {
         public bool Play(model.Game a_game, view.IView a_view)
         {
-            // VÅRAN KOD
+            // VÅRAN KOD - KOLLA OM DET SKER YTTERLIGARE REGISTRERINGAR VID ANDRA KÖRNINGEN VILKET FÖRKLARAR ALLA REPETITIONER
             model.Dealer dealer = a_game.getDealer();
             dealer.RegisterObserver(this);
             
