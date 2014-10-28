@@ -2,13 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
 namespace BlackJack.controller
 {
     class PlayGame : model.IObserver
     {
+        // m eller a???
+        model.Game a_game;
+        view.IView a_view;
+
         public bool Play(model.Game a_game, view.IView a_view)
         {
+            // TEST
+            this.a_game = a_game;
+            this.a_view = a_view;
+
             // VÅR KOD
             model.Dealer dealer = a_game.getDealer();
             dealer.RegisterObserver(this);
@@ -17,17 +26,18 @@ namespace BlackJack.controller
             model.Player player = a_game.getPlayer();
             player.RegisterObserver(this);
 
-            a_view.DisplayWelcomeMessage();
+            //a_view.DisplayWelcomeMessage();
             
-            // Move these rows to UpdateObserver
-            a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
-            a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
+            //a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
+            //a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
 
-            if (a_game.IsGameOver())
-            {
-                a_view.DisplayGameOver(a_game.IsDealerWinner());
-            }
+            //if (a_game.IsGameOver())
+            //{
+            //    a_view.DisplayGameOver(a_game.IsDealerWinner());
+            //}
 
+            ShowGame();
+            
             int input = a_view.GetInput();
 
             if (input == (char)view.Choice.Play)
@@ -52,10 +62,21 @@ namespace BlackJack.controller
   
         // VÅR KOD
         public void UpdateObserver() {
-            //TODO: Update SwedishView, IView, SimpleView
+            ShowGame();
+            Thread.Sleep(1500);
+        }
 
-            Console.Out.WriteLine("TEST");
-            System.Threading.Thread.Sleep(1000);
+        // VÅR REFACTORING
+        private void  ShowGame() {
+            a_view.DisplayWelcomeMessage();
+
+            a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
+            a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
+
+            if (a_game.IsGameOver())
+            {
+                a_view.DisplayGameOver(a_game.IsDealerWinner());
+            }
         }
     }
 }
