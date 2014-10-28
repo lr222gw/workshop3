@@ -62,7 +62,7 @@ namespace BlackJack.controller
 
         public void UpdateObserver() {
             ShowGame();
-            Thread.Sleep(1500);
+            Thread.Sleep(1000);
         }
     }
 }

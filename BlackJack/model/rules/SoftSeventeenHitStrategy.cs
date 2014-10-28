@@ -10,8 +10,9 @@ namespace BlackJack.model.rules
         private const int g_hitLimit = 17;
         
         public bool DoHit(model.Player a_dealer)
-        {   // Detta fungerar ej. värdet av alla kort som ej är ess kan 	
-            // vara något annat än 6...Summan av alla kort utan Esset ska vara 6 om regeln ska användas.
+        {   
+            int aceCount = 0;
+            
             if (a_dealer.CalcScore() < g_hitLimit)
             {
                 return true;
@@ -19,12 +20,14 @@ namespace BlackJack.model.rules
             else if (a_dealer.CalcScore() == g_hitLimit)
             {
                 IEnumerable<Card> hand = a_dealer.GetHand();
-
                 foreach (Card c in hand)
                 {
                     if (c.GetValue() == Card.Value.Ace)
-                        return true;
+                        aceCount++;
                 }
+
+                if (aceCount > a_dealer.GetAceLowValueCount())
+                    return true;
             }
 
             return false;

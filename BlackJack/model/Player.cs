@@ -9,6 +9,7 @@ namespace BlackJack.model
     {
         private List<Card> m_hand = new List<Card>();
         private List<IObserver> listOfObservers = new List<IObserver>();
+        private int m_aceLowValueCount = 0;
 
         public void DealCard(Card a_card)
         {
@@ -25,6 +26,7 @@ namespace BlackJack.model
         public void ClearHand()
         {
             m_hand.Clear();
+            m_aceLowValueCount = 0;
         }
 
         public void ShowHand()
@@ -40,6 +42,8 @@ namespace BlackJack.model
             int[] cardScores = new int[(int)model.Card.Value.Count]
                 {2, 3, 4, 5, 6, 7, 8, 9, 10, 10 ,10 ,10, 11};
             int score = 0;
+            ///
+            // 
 
             foreach(Card c in GetHand()) {
                 if (c.GetValue() != Card.Value.Hidden)
@@ -55,11 +59,17 @@ namespace BlackJack.model
                     if (c.GetValue() == Card.Value.Ace && score > 21)
                     {
                         score -= 10;
+                        m_aceLowValueCount++;
                     }
                 }
             }
-
+            ///
             return score;
+        }
+
+        public int GetAceLowValueCount()
+        {
+            return m_aceLowValueCount;
         }
 
         public void RegisterObserver(IObserver observer)
