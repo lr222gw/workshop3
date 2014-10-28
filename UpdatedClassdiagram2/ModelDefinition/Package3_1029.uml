@@ -1,0 +1,2260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b4d34395-229d-47b2-b8ab-a7d8546330ee"
+  name="view"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="02c0c62b-d69e-40e3-97d5-cf46f1c8ab57"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBlackJack.view"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="a24d6969-67c1-498a-bed0-ef3a86e55f59"
+        name="IView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="d419060f-643c-4bcb-a0c1-527abe56a0e6"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1c63c9bb-364c-4c28-b517-1f36e0cbee5b"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="57c7c212-46cd-47fd-a5bd-7114d282be5e">
+                <propertyInstance
+                  Id="1146e2d3-59e7-4fe3-a139-13c7bb5f3f23"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ffde9a6-0f08-4f6d-9ada-cf504d4b02ba">
+                <propertyInstance
+                  Id="59426ad9-cba7-4ba4-8377-f4b4b27e5f90"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8948051d-7c7e-4285-b5cd-ea3d19cf4361">
+                <propertyInstance
+                  Id="b403a878-f3b3-42a4-9c2c-e89754f9fab4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d45f3542-ae54-49a2-b410-edd491d1f758">
+                <propertyInstance
+                  Id="b36dcceb-bde7-46ae-bb3a-531899b4e924"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="7fec4d62-33d4-4ddd-a07b-f53ea88800db">
+            <classMoniker
+              Id="23404cb3-0525-4c72-bf7e-dfca43cdba77"
+              LastKnownName="Card"
+              LastKnownLocation="Package2_1029.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperations>
+          <operation
+            Id="4585fdf7-eeb1-47e8-af42-f9298f7813aa"
+            name="GetInput"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d18a3b07-41aa-450c-9566-dbeb014619c7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3DGetInput"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0962dec4-1733-416e-a45a-a6a62b5b4583"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b25705be-9471-4df4-93f2-8bd95e724db9">
+                    <propertyInstance
+                      Id="9f5b89ab-e9be-4af4-a5b8-cccb573ee49d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc8e905e-c345-4bec-943e-eb703a3b0f94">
+                    <propertyInstance
+                      Id="ca1c6b67-5050-4328-83f7-74147788ed73"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62f0d1d4-faa8-49aa-8a47-7b4833d8c95c">
+                    <propertyInstance
+                      Id="e7bd450d-c407-422f-846d-fe716f2d45d4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a42a5fb-bfd9-4369-bcce-13b0786e0fa8">
+                    <propertyInstance
+                      Id="eea1b454-5d4f-46b7-a026-1d36c6bd1340"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa4dfa10-2519-40e2-9803-335d44c1d33d">
+                    <propertyInstance
+                      Id="7c9d7aa0-a415-4de7-aa59-3187df6c3d25"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52be5690-a819-40f2-9011-a8c710911afd">
+                    <propertyInstance
+                      Id="5529e952-006a-4240-ba8a-0c45ce5b0d4b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5e92773f-5d53-4bd7-a2dd-d1dd1b6b1ad5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5619219f-4100-46b1-9a6d-7776da137f37"
+            name="DisplayWelcomeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cff88288-f6a6-43ed-b282-e997d7589ca4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3DDisplayWelcomeMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6fd0ac90-263f-4947-b24e-548ebfde706a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c951ad47-019b-49d1-9449-55f459af5db3">
+                    <propertyInstance
+                      Id="f326b9bc-3e9f-4412-ba4c-8e5fe00298e0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a23dc5b-eaba-47be-9a9b-51085cc9be37">
+                    <propertyInstance
+                      Id="e2d9e816-04ab-4bf6-927d-cfaf64550b97"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8742f463-09bf-4759-aedf-aee6e7c6d246">
+                    <propertyInstance
+                      Id="5c8aaa93-5144-477b-86ee-953f1046b5fc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d72b7ff0-fe67-4ad3-b893-7b54e83f379f">
+                    <propertyInstance
+                      Id="1974755c-5ec2-429d-b3f6-c38bf8cfe60e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="848433e4-5549-491b-be8a-568792b513a6">
+                    <propertyInstance
+                      Id="7f783e58-30ec-43b8-8e76-73eefe1b31b9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df66bb82-f682-4b31-ae3e-bb88cab496dd">
+                    <propertyInstance
+                      Id="aa76920f-877d-4239-ac74-a08843e2e696"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="07af980c-d48b-4191-9fe9-db337aa0f8b9"
+            name="DisplayGameOver"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c1fcf6ca-b969-47cb-b615-8d1810f35026"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayGameOver OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28ba8889-6009-46c7-b5a5-0aca3c7dddb6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d8d4bb3-236a-4105-9725-f61cd2c51954">
+                    <propertyInstance
+                      Id="137056d9-7938-408b-9774-b967a61c3507"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b82ff1c5-4aa0-4699-a68d-4b4b8396e5aa">
+                    <propertyInstance
+                      Id="2cbdba0f-d3de-40a8-b117-f083424abce3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92831c10-f1fd-4306-b3f6-01a3c884d088">
+                    <propertyInstance
+                      Id="8788166b-1756-4030-b0ee-0138f424c81f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d6f4197-f145-4638-b1e1-81cc246c57a7">
+                    <propertyInstance
+                      Id="ce0cf872-08db-4210-a9b2-5b4c9a636b60"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="473e3150-e0f2-4786-9ade-618157eeb9a6">
+                    <propertyInstance
+                      Id="eed8ef62-8369-44fb-9b7c-696277709718"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44f7c795-bf77-4e73-b8fe-9150fd4dc6dc">
+                    <propertyInstance
+                      Id="23c7db49-d05f-47c9-9292-85ba5c162384"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b58169a9-786e-48a5-864c-d7566cd7ea54"
+                  name="a_dealerIsWinner"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5fcfb2ca-16ac-48a6-803e-0784a1a25432"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayGameOver OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Da_dealerIsWinner"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="62e0f0fd-3bb4-4cd8-8703-b2f14774479d"
+            name="DisplayCard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="56dc3aa5-cc1d-4a2f-8e15-3b82fdd8a50a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayCard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dfce04a3-a896-4af5-8133-abd7c4facd33"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc5386ba-10aa-4e4f-b86f-c6d603dda7b9">
+                    <propertyInstance
+                      Id="90fc1ba6-61b1-4571-be0d-124ad95a60e2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ddc6b33-74db-4434-94ae-b0ba5943a5db">
+                    <propertyInstance
+                      Id="6ed03747-2e42-493d-9816-e385266126da"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="562e6764-ff6f-48f9-93aa-b8121c05193f">
+                    <propertyInstance
+                      Id="8a227eec-c16a-4f9e-b428-a8243a367299"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf6e9386-3b8f-4c41-830d-363bb2b61e64">
+                    <propertyInstance
+                      Id="3c7f17b9-34ca-4600-b35d-1ca77a25f786"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7a0a6d8-ace9-43a2-a373-babe8e4a9a41">
+                    <propertyInstance
+                      Id="317ff88b-ebae-4cbf-bdec-74aa01d15600"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1127f9e9-93af-4453-bec4-4e3ced824b76">
+                    <propertyInstance
+                      Id="505a85ae-3a22-4dec-8f75-c78ad413f9d1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fcb6a5c5-6410-4135-853c-4faa486c6911"
+                  name="a_card"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="078e7867-1863-4a4b-9a61-fb9c7550fb1e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayCard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]) ParameterIdentifier%3Da_card"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a6d5c846-c38d-40ae-ae21-64bb73ac225f"
+                      LastKnownName="Card"
+                      LastKnownLocation="Package2_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="68de802c-7cc7-4209-8376-feceae58d6fe"
+            name="DisplayDealerHand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a59ce2e4-a6fd-4f8a-ac86-c685f92fabdd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10f63c1a-a1e5-45d1-8aac-125113fcfe5c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="292721ab-32e2-450b-86c3-ab8166136502">
+                    <propertyInstance
+                      Id="474ffc1a-ff6d-46b9-ac5b-afa02145b4f6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10cb32ed-67d9-422f-a8a7-c72171286094">
+                    <propertyInstance
+                      Id="2448c7ba-e2a4-4bb9-8165-7d4d0367a3f5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ffdfec9-77df-49fd-b1b0-2a84193eaf66">
+                    <propertyInstance
+                      Id="0bb532b0-40bd-47a7-aeda-5676564229b0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb162602-ad6d-4054-8e9b-f60cb2bf3db5">
+                    <propertyInstance
+                      Id="5f8c59d6-e605-438b-b444-3ff40d524c0f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b78c1bb-ea81-40b1-bad9-9fbfe39b017f">
+                    <propertyInstance
+                      Id="b93f9ef6-dc32-4d6f-8756-cfac30e643d0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be75ff97-6987-499b-83c2-65c58a92a3fb">
+                    <propertyInstance
+                      Id="f7f39168-54c5-4274-8dbf-49798479ac09"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2fcf9ee1-41c6-4bc2-89eb-8f43db586c12"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="99474fd5-363b-4f3a-a51e-0c63c51fb3a5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ad39d83f-56d1-4d2d-a418-9879af8f9f8b"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a31c3b83-308e-4c33-8aec-908822800274"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0fde2ca7-35b3-45ac-b9ca-29657543bc8a"
+            name="DisplayPlayerHand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dc82e7b9-5d3e-41ce-af49-0c7ca9bbb4e8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a721feb9-2d76-4ea9-a9bc-3ac2d80f601a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad831457-c61f-4a4c-97f1-1005c4d6b3a4">
+                    <propertyInstance
+                      Id="59207552-1ffb-44b5-9ff3-d41cda207877"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae22264b-a1b2-4d4a-acf8-a3842b77c6cc">
+                    <propertyInstance
+                      Id="071e4404-8eac-4373-b5ff-9784e796b1d4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d9d625a-f635-466b-b65c-57c84b4bb065">
+                    <propertyInstance
+                      Id="329d94e8-eb4f-490d-b5cd-f7fe73225f42"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62816c59-8131-4084-9af2-19e9ef488676">
+                    <propertyInstance
+                      Id="b3153a58-6fc6-4866-8a1a-44499f31b13e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1d9ed33-47a9-4905-9271-83f6e024bf01">
+                    <propertyInstance
+                      Id="011847ff-32db-4ee6-b406-f23815007ed1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="069a587e-9496-4195-872c-29510f14c32e">
+                    <propertyInstance
+                      Id="669fba49-ce26-43b0-981a-e9642b50dff3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0e604cdb-a778-4da7-8740-2174aca8236a"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a5ab81b2-d72a-456d-ac99-42dd805205c7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="20c425da-a5a2-479d-b596-15ce460c7b6d"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4ce3ed06-1a5f-4422-8713-6d8cd37396fe"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DIView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="35f73bf5-f51f-4e23-8bf3-4fecaf125947"
+        name="Choice"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="52ba8ac6-4b78-42fe-864b-a69dc030b362"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DChoice"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="41c8943a-f312-4af9-9ef5-b8ce9331f155"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b55c7a0c-baa1-4343-bb2f-ad06b6fb8a4b">
+                <propertyInstance
+                  Id="a963232d-85d5-4eed-b1a1-6974648c353e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86f729d4-9775-4d59-844b-ca26009af2c4">
+                <propertyInstance
+                  Id="a5aa06b5-e8d3-47b9-8a00-64c672c7d061"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aec6d96b-f9cb-4a3c-bb93-725f1e9516ac">
+                <propertyInstance
+                  Id="462e5f9f-62ae-4a43-a741-3482048f2169"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="0821ec52-2a4a-4970-8796-48a353afea13"
+            name="Play">
+            <referencesInternal>
+              <reference
+                Id="352f0b90-1a4b-41f8-b1ff-8599a66a8e78"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DChoice Member%3DPlay"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="1fccb503-d5f4-46c3-85b7-1fc5c2a02656"
+            name="Hit">
+            <referencesInternal>
+              <reference
+                Id="fda84963-d735-4706-a5d0-c410610e1f6e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DChoice Member%3DHit"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="26d8405d-b643-4658-8557-3bc44b002038"
+            name="Stand">
+            <referencesInternal>
+              <reference
+                Id="73fb73fd-1d17-4699-a246-98a68723f3bf"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DChoice Member%3DStand"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="0ccfd411-2b7a-4f5b-8ab3-19f9d2a1d3b4"
+            name="Quit">
+            <referencesInternal>
+              <reference
+                Id="803d49c8-31de-47f8-badf-5ebf28522cfb"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DChoice Member%3DQuit"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2037db7d-0228-423f-a049-7161d8bbe4b5"
+        name="SimpleView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f47c87fa-3763-49f7-81d2-d8ea431e90f8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d5af6dfc-f03a-47ef-b5c6-ae22022f9c44"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be0c69ad-00d0-402e-bb30-130635ffbce4">
+                <propertyInstance
+                  Id="92766152-e116-4e24-8c48-7c8b63bec03f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="feb503b5-0454-49e2-a930-fee25e5cd547">
+                <propertyInstance
+                  Id="5918024b-dab4-47ff-a411-36cd79129bbd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fae66db8-ce1a-43f4-8824-1a0f2b7e81d4">
+                <propertyInstance
+                  Id="fd7a8cdb-7038-4816-8296-103109db05d3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5363256-b817-4e1b-8e99-99d615f7e2b8">
+                <propertyInstance
+                  Id="bcc835f8-ccfa-4a7d-b796-7793fd91e899"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="397f53a3-87d3-4d40-9552-dd7d29424927">
+                <propertyInstance
+                  Id="5b47d4a1-6134-4a60-ac2a-e9896f859ffe"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3687fb45-7bfe-464a-b64d-222fb47d3e52">
+            <interfaceMoniker
+              Id="a24d6969-67c1-498a-bed0-ef3a86e55f59"
+              LastKnownName="IView"
+              LastKnownLocation="Package3_1029.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0ebf733f-5b2f-4ae6-af02-fd366e374cd2"
+            name="DisplayWelcomeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7d535005-bff8-4384-9ee6-e5d4b79699c2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3DDisplayWelcomeMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5697d3d4-86db-405b-9ccf-a2225b53bf5f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bedadbc-abe8-4003-ba42-bf9536abfb73">
+                    <propertyInstance
+                      Id="e92ede00-85ed-444c-9702-5bfe26a0df76"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f223b42b-1d9d-4a88-aa1c-1fb96d2a7049">
+                    <propertyInstance
+                      Id="5f07ba3e-c177-404a-a55c-7df2875af38c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e02ded6b-0a42-4992-b90e-0f1e427134e6">
+                    <propertyInstance
+                      Id="6e5fbe20-5b15-423f-a40a-ea7c0b076219"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58309895-2229-4a76-874f-fe4cba4d6983">
+                    <propertyInstance
+                      Id="6284c172-ead4-44c3-83bb-1c111ff15951"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20be08d7-079b-4393-9aa2-7ad2c3a719e3">
+                    <propertyInstance
+                      Id="b6489f5c-efa4-4d83-8959-9e398843ea97"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3faae4d6-6a6b-4177-9fe2-b5d54b127bdd">
+                    <propertyInstance
+                      Id="05a40a03-a85b-44d3-8040-185fca02b770"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="bea5c5d5-f176-40a9-9c66-58fbfc6017f3"
+            name="GetInput"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d03ff68c-a6df-4b8f-9bee-2144f2a5da1a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3DGetInput"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4ebad91b-c07c-4ad3-bd6b-731d0584e2e5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aa2fcc8-22b0-48f1-89f4-03bbaa67533e">
+                    <propertyInstance
+                      Id="227541ca-da9f-4730-82dc-8c0e6f9e54f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0abcd811-5eb3-4d26-aa93-df189175f329">
+                    <propertyInstance
+                      Id="01bcef7b-e8e0-4bf3-b547-7262df646093"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2726d915-4289-4d03-b0b2-dc3ee01802c5">
+                    <propertyInstance
+                      Id="80c5a31d-e79d-4cde-9fd9-e5f6cb95e177"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b608c084-b780-4f36-97fb-fa68e4b8b2ac">
+                    <propertyInstance
+                      Id="009177bf-1d42-42b4-8b93-2717eda2dd4c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4db32436-d2b7-48f3-b5af-afe4e973face">
+                    <propertyInstance
+                      Id="f3fabc3c-ab56-4763-90b7-60204914e882"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6b3a4c9-1ec4-475f-9167-8a2e33a8a7ad">
+                    <propertyInstance
+                      Id="2989d1b9-f5d7-4b97-9daf-6a4ec336c6b2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f4c31d01-e230-41f4-95df-c4c3bc3565dc"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9582d5aa-0ce2-4f5a-af0c-4ba69edd4558"
+            name="DisplayCard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="220d0b26-6bff-4c55-8f11-45de008cc9ba"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayCard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="93afc0c5-5951-4c7d-9fb8-e41664a7083b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="499d0a41-1b2a-4cfc-85f3-5c6d5d0f0034">
+                    <propertyInstance
+                      Id="984e2885-5ec0-4dd3-836a-afa35a9f8f91"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c165a21-aed0-4edd-a656-5784546c2b54">
+                    <propertyInstance
+                      Id="3c4332be-ba07-4e74-be24-ca168c7a8fb7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5f2f807-74db-4321-9d6c-ec9b3298ab89">
+                    <propertyInstance
+                      Id="9f3a98a1-5d7a-422d-92de-d8aa627d0128"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26cbcc61-ea5b-4441-96ac-a1f806a85055">
+                    <propertyInstance
+                      Id="b824525a-ea87-4767-8a96-ec08a9427d6b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64951507-6bac-4791-975f-d68cef1b248f">
+                    <propertyInstance
+                      Id="ba03ad65-af7e-4bc1-9662-91dd4f98db65"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc2ced1b-00f8-4cf8-b1dc-c79a0ede07d1">
+                    <propertyInstance
+                      Id="7efa1acf-9226-42e8-bef8-80bd18b3cffe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1216c73f-c4ca-4eed-8770-9be17b20e067"
+                  name="a_card"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d9db5c70-22c2-4a28-bba9-69d5b56cdb08"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayCard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]) ParameterIdentifier%3Da_card"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a6d5c846-c38d-40ae-ae21-64bb73ac225f"
+                      LastKnownName="Card"
+                      LastKnownLocation="Package2_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ff1e7c61-b5f8-4490-8216-2dd016be5684"
+            name="DisplayGameOver"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="540025c1-224d-4149-968d-a4e1aa65a13a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayGameOver OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3f12f6ac-6d48-4bda-81e3-7fdf8773ea7d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="885f4b3f-a782-4b57-b05e-e729e97d88bc">
+                    <propertyInstance
+                      Id="5e8be1e7-f050-42e4-a9de-e7e10ab614b6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6c108db-7145-4da9-b000-2bbb9cba89b4">
+                    <propertyInstance
+                      Id="024a3f0a-cef8-41a6-8ab9-c7a0ba73ab33"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83839488-fac8-4996-b0af-98f0a0b55493">
+                    <propertyInstance
+                      Id="6969c22e-6887-4634-9e85-f31454247d75"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9527850f-b61c-45d0-bdd3-ed7b4d0bebc0">
+                    <propertyInstance
+                      Id="e0da8807-bd69-4b3b-b834-e32fea84764c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e125b28c-00bf-4005-96bc-c2fa38cba9cc">
+                    <propertyInstance
+                      Id="49bf4191-04da-4942-89d7-4be642185eed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e456fae4-b4f9-4496-a4fc-621bda67c7a2">
+                    <propertyInstance
+                      Id="9cef4262-33af-47d0-9c9b-a1aa862131f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e72180d0-6aa8-42c8-8be4-f579bf6f1ad6"
+                  name="a_dealerIsWinner"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6c98a82f-dd2d-4c5e-9724-17e7b7654da9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayGameOver OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Da_dealerIsWinner"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7acf6d2c-e9ec-4aa8-b0d1-b7da0bef7f53"
+            name="DisplayDealerHand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5fd00f4-a2d9-4991-932d-a51d111d131a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fec83ac4-6966-46a4-8e82-684bc921c19e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8106935f-2820-41cc-a13c-854763710b38">
+                    <propertyInstance
+                      Id="ed785b4a-0dd5-45d5-9900-2564225f979f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee4ab14b-91f6-4a5a-8264-14a02c323252">
+                    <propertyInstance
+                      Id="54278c0a-5bce-4654-8d48-833c4c55a4ae"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="435ba64b-c2bb-4066-828b-fcd26f6c4a7c">
+                    <propertyInstance
+                      Id="dda1ff4d-d5fb-441c-9036-afa79452ebb0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1d6b080-fa9a-484c-bd74-a1de4acffd31">
+                    <propertyInstance
+                      Id="c18a498b-ab95-43f6-949d-1e56421c46c0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8094198c-edea-405f-a9f0-c5857b6ba1dd">
+                    <propertyInstance
+                      Id="ad6fe166-f536-405d-ab75-a1cc66b63492"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b042de2-2e4f-4c5d-87c0-8e127a441a0f">
+                    <propertyInstance
+                      Id="bcfaef9e-ed4d-45b1-9a3e-b633140672dc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d94518a0-2b16-45b7-bacc-0464f33eb73b"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="11dcc805-19c7-488b-bee8-100bf4a0fda8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="022e985b-43dd-4375-b9e8-cb06af445519"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="85d353ab-86ad-451f-9358-7c7a242d481c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="342c251d-c9a0-4608-bdb8-cb1a0b1fa247"
+            name="DisplayHand"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="46e94890-0116-481f-9739-94d1649c96b7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="63019511-32c7-49f0-be1d-8a17f5711364"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f09ac42c-5ae9-4a4a-a82b-19a37f699ec4">
+                    <propertyInstance
+                      Id="62dbcfeb-cbaa-465f-b28f-54cdd02b26b1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8976dcf3-b767-4d1b-aa43-2d83f41f6e26">
+                    <propertyInstance
+                      Id="4cf6acd1-a4d7-4da1-87db-1a3a1c6b61d8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65787d51-94e6-48b9-958b-728780f9b2b2">
+                    <propertyInstance
+                      Id="a287294d-469e-4063-b273-ae1805d67b95"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1835a03f-d4ce-49fb-955f-2d4ffccf9b42">
+                    <propertyInstance
+                      Id="52703edd-d93c-487d-9bd1-2dfd587160e3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="271820bb-04ad-4273-8f76-b26501178f6d">
+                    <propertyInstance
+                      Id="2e205339-5828-4729-81fd-c04f1f571236"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="524f7495-b9fc-4b4c-9aa4-58ca1e86893b">
+                    <propertyInstance
+                      Id="b2ac30ef-0d94-44b2-8204-793309af3d2f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c463f38a-76c6-4b68-bd2c-9b678096fb8a"
+                  name="a_name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="abaa7265-ef88-46d6-859b-aaed7c96df64"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_name"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8e5fae53-5ea9-42e3-93a1-09eb3a86846c"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0ed339ca-2c05-4403-a988-048cd09265ee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1bc43d5a-870d-493f-9c2b-fea7bc7c7e8b"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="330ef391-c0e4-4676-a184-8ff40ed3bd50"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b12560e1-d499-4114-bfc3-ef16c65254d9"
+            name="DisplayPlayerHand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="639770db-c981-495d-baef-66db517c3c77"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3b46928f-9f22-452b-8a44-cce731da1d8c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f47fd0e-1cd3-42f8-aa1a-aacc12f80d02">
+                    <propertyInstance
+                      Id="7b1d79a1-94a6-4d2f-bb98-7bf8ca2b46d6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5668097a-9fc2-4324-8cf5-b18c62114ce1">
+                    <propertyInstance
+                      Id="c90ad6c1-66d0-4244-9f4d-f2b62230d6fb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26e4fcfc-0e51-471a-a01c-f56637e5e113">
+                    <propertyInstance
+                      Id="8f6f5fff-9134-42e5-b0e4-00dcf8deb406"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57c75dd5-9e34-43ae-92b2-f1c0796b8d9e">
+                    <propertyInstance
+                      Id="ac5f1eac-8db6-42d8-8aeb-f5e86aa28038"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="236832af-e064-4f68-b211-63e810bab63d">
+                    <propertyInstance
+                      Id="a3f00e6e-e65e-4faa-96c7-8304dfabb0ec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4cfb4a9-6850-4805-87ef-8c519ffe07b2">
+                    <propertyInstance
+                      Id="2c74a0f7-eb2b-4401-828e-c77ef2d32e88"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d1c8d1e-ac37-4b5b-b896-a55b0357b0f8"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f9c1a2e1-aba7-4604-886b-be7b714c20cb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cadf62a8-8182-4947-b2bb-2e0cdf4489ce"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="85651a04-92c4-4e5f-836e-8459f2416af4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="47e48853-2e33-44dc-8c66-8e9e2e66d5b0"
+            name="SimpleView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="695039ca-4b77-4f32-afd2-472c2bacd633"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSimpleView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="68905ae4-87d9-4a82-b261-7aab6ac35798"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a24051a1-253f-4ebd-8ecc-3d4b99ecf5cc">
+                    <propertyInstance
+                      Id="69dad5fe-eadf-41ef-8ae2-b16589bd31d7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d195c98-b657-452b-940e-d2e479b53d2e">
+                    <propertyInstance
+                      Id="de6ae599-c5ed-434c-b381-09b9a7b27b51"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32b15210-8d83-4f5b-8a8c-8ec2763bfcaa">
+                    <propertyInstance
+                      Id="1dff604b-3802-4143-8a70-d08e82995b64"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0549807c-7956-4a68-9dd1-3f7e8c8e1b59">
+                    <propertyInstance
+                      Id="605b2ced-3447-49fa-aae8-d45a101d8a8d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="976811d2-6b67-4cda-bea5-8d0f9793f4d8">
+                    <propertyInstance
+                      Id="fcb4f749-14a7-4e03-8f09-42bff3062c4f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3272ba82-e7eb-4c5f-b974-8c891dc9d333">
+                    <propertyInstance
+                      Id="684398cc-311d-446b-844a-1662addb78a2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1bac54c8-ed88-4f51-98f5-851e00f50481"
+        name="SwedishView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bca53f03-8f47-48df-b0aa-36aa7ab69c52"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1a217d8a-9794-485f-b763-26d4f598ce22"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd5f2b3b-defa-4b9e-b1a2-c1ef6f3d073b">
+                <propertyInstance
+                  Id="b4962da4-9eda-4944-aa56-65fd426e3359"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cae6add2-5d62-48be-a9e7-b3ac0aab0d55">
+                <propertyInstance
+                  Id="5fdefc59-c498-4a0a-ad5b-c31dca8b00c5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c45343f4-9682-4f52-9306-be041418f9ca">
+                <propertyInstance
+                  Id="6774a524-c61a-48b5-bcf5-1dab0d8c5562"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="30c89a49-4c62-49d5-95f9-ebfa9fe8c77b">
+                <propertyInstance
+                  Id="3a873a6f-dadc-4d24-9a5e-0b329113b84d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b1b983e-98db-4255-9e5b-a05e5e7b8a86">
+                <propertyInstance
+                  Id="f7314c28-df20-4291-a40f-6006b36903b6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="eb1bec1d-2cd3-4d82-b92e-a4edba23143c">
+            <interfaceMoniker
+              Id="a24d6969-67c1-498a-bed0-ef3a86e55f59"
+              LastKnownName="IView"
+              LastKnownLocation="Package3_1029.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1086b98c-2908-4156-a146-c6edb039b58a"
+            name="DisplayWelcomeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f613f4b9-d7f3-41cc-9a32-1e4cba0cefba"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3DDisplayWelcomeMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9481fb01-87ba-479a-aa19-cd5c9ce54abe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d22aa06-9b38-4fb9-9623-9dcd44ac1dac">
+                    <propertyInstance
+                      Id="798cc89e-bf7c-491a-9660-d6d27602312d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0347036-d498-4b5d-a970-9f4d44db9295">
+                    <propertyInstance
+                      Id="589bc356-63f7-4186-9f58-61825571a268"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dff4d19b-f008-42c4-b23f-76daaf765dfc">
+                    <propertyInstance
+                      Id="3230fb5d-a6b3-4eda-bdb5-3db6e77b7dec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78bb73bf-eecd-4295-83a1-88e6caeeb0ee">
+                    <propertyInstance
+                      Id="9ed83dc3-9358-46b6-941a-4faecc4ef23a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc9e0f57-a903-4640-84d5-983d2357a699">
+                    <propertyInstance
+                      Id="c5283c93-b586-44c9-8f86-41f9a0ea1009"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50118e17-7ec5-4307-9581-2362b7dc6c98">
+                    <propertyInstance
+                      Id="48c2b586-bdff-4322-8f87-8a51bdbad101"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="16c3a59e-9f77-4f97-a79d-fd424296fb9e"
+            name="GetInput"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="041a9282-fadc-47a8-af57-876e26ba677d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3DGetInput"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="727ce657-729b-4d0e-874e-e56adff14483"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9bf5625-410b-450d-9d35-a2bbf3de1723">
+                    <propertyInstance
+                      Id="b1b548c2-c928-475c-b79d-a21e2ec71f0a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f99e905-dbb6-408f-8243-ece5c4215a96">
+                    <propertyInstance
+                      Id="ef2da38a-232f-4853-8786-8e4aeb9e1cb9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="510cd827-3f52-4baf-8cf2-e186d3226747">
+                    <propertyInstance
+                      Id="c25a50ce-34f0-42e8-ac7c-0357f1602fba"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55c4279b-d6db-4611-9c57-d60e7462b16e">
+                    <propertyInstance
+                      Id="cb615697-f5b7-4463-86b7-ab731b34742f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51347841-8639-4393-8e14-74b074a45acb">
+                    <propertyInstance
+                      Id="df8209ed-e537-48d3-a6e7-7bb569a7d445"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b58c953-170f-4d58-b8d5-6670a17b2de1">
+                    <propertyInstance
+                      Id="cd9c7b48-4da9-4ddf-bda2-2d31287fd1d6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e4aa6365-938f-4695-bab1-28794a11a56e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="aec44530-0e95-4ea6-996d-39a481c2481b"
+            name="DisplayCard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="928a0e56-fce1-4917-b7a0-aa915e9685de"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayCard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="29c27db1-ca0c-49c1-bb02-f76816514c7b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f795ac41-cdc8-4624-b1aa-27635e232492">
+                    <propertyInstance
+                      Id="f5f9708f-65b9-4243-b5bc-ee35d9fc6656"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aec45e28-f2fe-474b-b030-787609914379">
+                    <propertyInstance
+                      Id="1941b2ed-0c4e-4c8f-b04d-77deeca537e6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3080012c-6ce7-4ae1-9dd5-0d59a5c4c884">
+                    <propertyInstance
+                      Id="da03ede9-5d16-4e20-9e55-ae894062c7da"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c05bb1d-d506-400e-a59d-5d8199103af3">
+                    <propertyInstance
+                      Id="e69991f4-ca13-4cc4-903e-f9c056247cd5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5b186cb-d3bb-4618-a438-c829ae38c6a4">
+                    <propertyInstance
+                      Id="e3ff4963-efa5-46c3-a6c0-54bfbc85545a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="257e5517-01e0-4891-9fb9-98d3b8de0578">
+                    <propertyInstance
+                      Id="772feccb-f3cc-4989-8a55-d57d4681e6f9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="846f805e-c2f8-44f2-83a5-96115b4d4d65"
+                  name="a_card"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dff31841-1279-4c3e-89db-57cb8f40d0fd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayCard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]) ParameterIdentifier%3Da_card"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a6d5c846-c38d-40ae-ae21-64bb73ac225f"
+                      LastKnownName="Card"
+                      LastKnownLocation="Package2_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="adf33524-ebca-4b7f-8dee-c42bb8eda426"
+            name="DisplayGameOver"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="36e7c7d3-4189-4a96-b256-80721f1c1ac3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayGameOver OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d7057833-b9aa-47d7-9b13-f0f28667a676"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fbc7396-c0e9-4137-88e8-2be8c39aabf2">
+                    <propertyInstance
+                      Id="ec2e74a1-71ec-44ae-bfa1-c64241346093"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb1114c1-4e85-4535-ace2-adc97bedd46a">
+                    <propertyInstance
+                      Id="d331708a-9d72-4c7e-909e-308fcad1dc05"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1946173-593c-422b-a62d-0fd622a655aa">
+                    <propertyInstance
+                      Id="f782ac58-f650-422e-a2b1-79208586ea86"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9acdc0ff-0b6f-4cf7-bb9c-6d088f41b6a4">
+                    <propertyInstance
+                      Id="4f08c58f-1452-4c96-a733-a6a013c5039b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="842c9dbb-2133-4d45-921e-5e6f3824910b">
+                    <propertyInstance
+                      Id="bdc0df6d-9d97-4572-9259-8f9d52b304ea"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="318da505-c2fc-496b-b46a-104bf3e15196">
+                    <propertyInstance
+                      Id="52accc91-afd2-476b-b26e-4a8fdc42d65b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="73b7489b-8e8b-4f9b-a83a-908ce14958c7"
+                  name="a_dealerIsWinner"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="32e2ab13-b420-43e8-ace9-511111f88a34"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayGameOver OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Da_dealerIsWinner"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5c7589d7-7494-48bc-9a1d-cf1801889322"
+            name="DisplayDealerHand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cfb3776a-6485-4e79-93e5-9471b95293e4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9a934efd-bc83-4066-950e-231eddf46a3e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13d320cb-f0ed-4e29-9420-cd1e7c9b5d7a">
+                    <propertyInstance
+                      Id="fd8153f3-39cf-4ff0-b5c1-c57b171851c6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b5cc319-8bed-4430-a65d-454b2dfedda8">
+                    <propertyInstance
+                      Id="94ab0006-85bf-4ca8-8962-0fc166c371a9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1feda1fb-6fb7-445f-bedc-126c5c53891c">
+                    <propertyInstance
+                      Id="d605680d-2f02-46b0-832e-80af19d68c3d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="435de633-154e-46d2-beb2-660484c98b9e">
+                    <propertyInstance
+                      Id="ff9e3a96-3b8d-4622-8564-4810f8871744"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fb04485-e879-421c-ae1e-6f3f36e41800">
+                    <propertyInstance
+                      Id="73e28954-9ffa-4eb9-9848-36f87ce3b915"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64380fd8-fbb8-401e-8923-e5b4d264d6f3">
+                    <propertyInstance
+                      Id="776fea90-b213-4498-a926-a483f2349bdf"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="85b0010b-9ac7-4937-bda6-74e57c278c13"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d68dce00-2b3e-4f92-bcf8-515e9ac2ae54"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c7030b69-b692-4fb6-b3d9-7882014fd7ef"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="27d28994-bf8e-4c36-b29f-7d3db52c79ae"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayDealerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c7b1aba7-24d2-49a4-9eb8-666ccb3ee4ec"
+            name="DisplayHand"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="362f5e22-5c09-4f77-a37c-b74bfb9d8037"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b9202e1f-77f5-4c67-8f51-46ea304d94ec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e251ed84-d1a9-49a8-a7a9-3825e8748ef4">
+                    <propertyInstance
+                      Id="b41cb223-85d7-48d2-9868-a707d2748f0b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1389230-b393-434c-843f-f2b6c57d213f">
+                    <propertyInstance
+                      Id="e7321440-be1f-4869-a13a-21ebebe26518"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc945c41-913b-441c-a772-6ac0154b7231">
+                    <propertyInstance
+                      Id="4e6180b9-0c79-436d-9ef6-2f1ab298ffbf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3dfa12b-d23e-4b2e-86a2-b3c31e97ea87">
+                    <propertyInstance
+                      Id="ee449235-6c4d-4dd1-befd-2fcb92357be5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d4ebbd2-8f94-46e9-9a78-c73d7b7d5d20">
+                    <propertyInstance
+                      Id="635471f0-c6c1-4db3-a62e-17b5adb5b075"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7241a74-e7ec-40e7-bf25-8b19cb1eafe1">
+                    <propertyInstance
+                      Id="8d1c9fed-4462-4416-a952-46096c76e3b7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="444688e7-ed34-44a3-9872-1e364dc59d95"
+                  name="a_name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="720702f4-c81e-4c41-843e-e25401bbbe3a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_name"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d91ea943-e0db-4868-b9c1-10c6f75d7d54"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="afeca3fc-8d41-498a-a91f-b0ea80868f14"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f5f2481-7d1b-4a6f-ab13-794be4497eaa"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="65d7c8f1-d969-4ccb-92ed-3c38e3be57a1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3fda4d04-b5dc-47f4-af26-4686217f08c8"
+            name="DisplayPlayerHand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f6f51ab3-73d8-4d82-930e-fc9db92ee219"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a14bdf3-80d2-406a-83c7-152ee3224d11"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9b77de9-6588-422a-9836-d96f6f907f04">
+                    <propertyInstance
+                      Id="a6b50e40-60ec-43bc-a411-57185ed47b21"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21db449e-118f-452f-8684-360b689e69f9">
+                    <propertyInstance
+                      Id="a86b5a04-e16c-426d-acd2-96d429bc097d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68b7ddf2-1560-4e94-af0c-b74d0be5c374">
+                    <propertyInstance
+                      Id="88c559d9-a2dc-454e-980a-dbdfbd315821"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="712f02d3-bfac-430a-8c6c-f2dad6c187d6">
+                    <propertyInstance
+                      Id="44e90429-4b98-4c61-b87a-541e33019b85"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f372fbf-85a2-4c69-bb92-27348756a8f2">
+                    <propertyInstance
+                      Id="9d1bf45d-8c5a-4397-af01-3474daa5656f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab9dbf41-7fc1-4045-8049-09898c789766">
+                    <propertyInstance
+                      Id="2459738f-eb51-4e2a-8e75-3208d9dba2df"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a7fa367f-b56a-4b8f-9964-5e58e6575a93"
+                  name="a_hand"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d10ae087-6b96-4034-a4de-1d4d2457defd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_hand"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3642cbb-bbfb-4504-b928-992939ae942c"
+                      LastKnownName="IEnumerable&lt;Card‎&gt;"
+                      LastKnownLocation="Package7_1029.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2f26b649-c547-4eb6-aa3f-cc46e3b3988f"
+                  name="a_score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d54ca365-2553-4884-b876-c795393c86bf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D(Name%3DDisplayPlayerHand OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.model Type%3DCard)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2FMicrosoft.NET%2FFramework%2Fv2.0.50727%2Fmscorlib.dll Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Da_score"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UpdatedClassdiagram2.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e7aed37b-9c28-4ae6-8f98-3036be7a7964"
+            name="SwedishView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de49463d-93d5-49d8-bad8-68dce091fbff"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FMina Studier%2FHT2014%2F1DV407 - Objektorienterad analys och design%2FGitHub%2Fworkshop3%2FBlackJack%2Fbin%2FDebug%2FBlackJack.exe&quot; Namespace%3DBlackJack.view Type%3DSwedishView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="17116e73-b786-45fb-8e72-a27e6995259d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d71da92-7af0-46b2-b356-10aa1dd9c08e">
+                    <propertyInstance
+                      Id="9c6775b5-9ad9-4957-8f25-e7316148dd3c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5cb1227-8883-4e12-9be4-6587651f0c96">
+                    <propertyInstance
+                      Id="c13b97bf-8098-4c8e-9ff4-0f026ebdc14a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="961b1597-188b-46d1-a24b-e58680cc007d">
+                    <propertyInstance
+                      Id="8d5e562d-74a2-4615-9556-a04bbd6af05c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9dadda5-30a4-40ce-b17c-d01e7e536800">
+                    <propertyInstance
+                      Id="fe9de68b-4f25-40db-b9c6-6fe33c654bb3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce49ce5b-455d-4932-a068-727382445997">
+                    <propertyInstance
+                      Id="7e6739ad-70c9-4496-aba0-07b915b50412"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="348db23a-204b-412a-9c83-5d967cfdbe50">
+                    <propertyInstance
+                      Id="5650b2eb-326c-4d0c-8e80-73cc15c6a643"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

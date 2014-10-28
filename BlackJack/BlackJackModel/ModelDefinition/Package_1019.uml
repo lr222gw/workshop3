@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="8e3c3282-1418-4329-b4f6-93360ce72341"
+  name="controller2" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="89f16e28-472f-4c91-ad70-ffb95b08a5e0"
+        name="PlayGame"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="3bc6ae6b-defc-4c02-a055-7624cc8f13ed">
+            <interfaceMoniker
+              Id="3ba6fec7-4a19-496c-80e3-c0f65c51b86b"
+              LastKnownName="IView"
+              LastKnownLocation="Package1_1019.uml" />
+          </dependency>
+          <dependency
+            Id="f014c3bd-39ee-476d-8d04-eb8a88b30941">
+            <classMoniker
+              Id="8c887b1a-3e82-4b7c-b78b-91eee8cbcd64"
+              LastKnownName="Game"
+              LastKnownLocation="Package2_1019.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

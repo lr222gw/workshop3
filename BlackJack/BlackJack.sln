@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "BlackJack.cspr
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "BlackJackModel", "BlackJackModel\BlackJackModel.modelproj", "{48404E97-A90F-456C-936B-4D2AB06B5102}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UpdatedClassdiagram2", "..\UpdatedClassdiagram2\UpdatedClassdiagram2.modelproj", "{C4DB8976-38BF-4673-AAA7-2508647F2371}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,16 @@ Global
 		{48404E97-A90F-456C-936B-4D2AB06B5102}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{48404E97-A90F-456C-936B-4D2AB06B5102}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{48404E97-A90F-456C-936B-4D2AB06B5102}.Release|x86.ActiveCfg = Release|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C4DB8976-38BF-4673-AAA7-2508647F2371}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

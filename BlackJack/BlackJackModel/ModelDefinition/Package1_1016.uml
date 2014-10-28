@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="f0e948ca-30db-43ab-be5e-777730047927"
+  name="rules" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="6d227104-df5a-45b0-a730-7184c1ce79d0"
+        name="IHitStrategy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="24978310-4592-48bf-9768-5a64e6457312"
+        name="BasicHitStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2c7af3d6-8aaa-4a49-b954-6b57ffe86fd9">
+            <interfaceMoniker
+              Id="6d227104-df5a-45b0-a730-7184c1ce79d0"
+              LastKnownName="IHitStrategy"
+              LastKnownLocation="Package1_1016.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="abd2c121-4dad-4a04-a27b-a398c15f40c0"
+        name="INewGameStrategy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d8470e11-6927-4547-9063-dcb97e1056bd"
+        name="AmericanNewGameStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="5f580516-27cc-4534-ab78-fc035825dd33">
+            <interfaceMoniker
+              Id="abd2c121-4dad-4a04-a27b-a398c15f40c0"
+              LastKnownName="INewGameStrategy"
+              LastKnownLocation="Package1_1016.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a72edd1b-1dae-4d51-acb6-3c4d383ac825"
+        name="InternationalNewGameStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="db7c7796-0ea4-4076-9901-3c16e0f010e4">
+            <interfaceMoniker
+              Id="abd2c121-4dad-4a04-a27b-a398c15f40c0"
+              LastKnownName="INewGameStrategy"
+              LastKnownLocation="Package1_1016.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bf41e90e-7c42-4b3b-912c-eabc66178fb2"
+        name="RulesFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="1292ce6d-7e19-4f63-b298-352fcd53c885">
+            <classMoniker
+              Id="a72edd1b-1dae-4d51-acb6-3c4d383ac825"
+              LastKnownName="InternationalNewGameStrategy"
+              LastKnownLocation="Package1_1016.uml" />
+          </dependency>
+          <dependency
+            Id="a30faee1-c0c4-4358-9b72-6a091e55f2fe">
+            <classMoniker
+              Id="d8470e11-6927-4547-9063-dcb97e1056bd"
+              LastKnownName="AmericanNewGameStrategy"
+              LastKnownLocation="Package1_1016.uml" />
+          </dependency>
+          <dependency
+            Id="2ccb2068-9816-45a2-b5b2-007e0150e050">
+            <classMoniker
+              Id="24978310-4592-48bf-9768-5a64e6457312"
+              LastKnownName="BasicHitStrategy"
+              LastKnownLocation="Package1_1016.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

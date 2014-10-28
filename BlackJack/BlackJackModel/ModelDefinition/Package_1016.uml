@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="890c4f18-7cad-49b3-8806-469833ef59ea"
+  name="view1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="1bb09d4d-c511-41f5-a52d-306d60379409"
+        name="IView"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="7c64a30d-ec7f-4d40-a9dd-44279dd24a49">
+            <classMoniker
+              Id="6e2f1b7c-454f-4cb5-b089-e1e5574649ef"
+              LastKnownName="Card"
+              LastKnownLocation="BlackJackModel.uml" />
+          </dependency>
+        </suppliersInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bb276c3e-f281-4e2c-a265-78a51f3f5bbd"
+        name="SimpleView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f721d66c-4177-4ded-9d60-f93628a7c6ac">
+            <interfaceMoniker
+              Id="1bb09d4d-c511-41f5-a52d-306d60379409"
+              LastKnownName="IView"
+              LastKnownLocation="Package_1016.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="92a9321e-967c-4d9c-9d2f-be4d079577bb"
+        name="SwedishView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="569bfb7a-e533-4b27-bb08-a9c724d6c158">
+            <interfaceMoniker
+              Id="1bb09d4d-c511-41f5-a52d-306d60379409"
+              LastKnownName="IView"
+              LastKnownLocation="Package_1016.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
