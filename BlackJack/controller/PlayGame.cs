@@ -9,14 +9,13 @@ namespace BlackJack.controller
     {
         public bool Play(model.Game a_game, view.IView a_view)
         {
-            // VÅRAN KOD - KOLLA OM DET SKER YTTERLIGARE REGISTRERINGAR VID ANDRA KÖRNINGEN VILKET FÖRKLARAR ALLA REPETITIONER
+            // VÅR KOD
             model.Dealer dealer = a_game.getDealer();
             dealer.RegisterObserver(this);
-            
+
+            // VÅR KOD
             model.Player player = a_game.getPlayer();
             player.RegisterObserver(this);
-            
-
 
             a_view.DisplayWelcomeMessage();
             
@@ -44,11 +43,19 @@ namespace BlackJack.controller
                 a_game.Stand();
             }
 
+            // VÅR KOD
+            dealer.RemoveObserver(this);
+            player.RemoveObserver(this);
+
             return input != (char)view.Choice.Quit;
         }
   
+        // VÅR KOD
         public void UpdateObserver() {
             //TODO: Update SwedishView, IView, SimpleView
+
+            Console.Out.WriteLine("TEST");
+            System.Threading.Thread.Sleep(1000);
         }
     }
 }

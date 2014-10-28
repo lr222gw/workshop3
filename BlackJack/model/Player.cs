@@ -78,5 +78,12 @@ namespace BlackJack.model
                 observer.UpdateObserver();
             }
         }
+
+        // VÅRAN KOD
+        public void RemoveObserver(IObserver observer)
+        {
+            int i = listOfObservers.IndexOf(observer);
+            listOfObservers.RemoveAt(i);
+        }
     }
 }

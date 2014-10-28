@@ -23,8 +23,10 @@ namespace BlackJack.model.rules
         // VÅRAN KOD
         public IWinnerStrategy GetWinnerRule()
         {
+            //return new DealerWinsOnEqualStrategy();
+
+            // VÅRAN KOD
             return new PlayerWinsOnEqualStrategy();
-            //return new DealerWinsOnEqualStrategy(); //Denna för om dealern ska vinna på samma kort...
         }
 
 
