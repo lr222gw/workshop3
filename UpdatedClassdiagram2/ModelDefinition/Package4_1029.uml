@@ -3178,6 +3178,29 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="f9641617-d538-4775-bf0f-c131381608cf">
+            <classMoniker
+              Id="38ff54c2-e3a1-4191-a2f6-53ae5b365334"
+              LastKnownName="SoftSeventeenHitStrategy"
+              LastKnownLocation="Package4_1029.uml" />
+          </dependency>
+          <dependency
+            Id="1b9560fc-3047-48b1-8170-32df1a81457e">
+            <classMoniker
+              Id="7f623d2d-0489-46f1-afd2-3d47fc67d607"
+              LastKnownName="PlayerWinsOnEqualStrategy"
+              LastKnownLocation="Package4_1029.uml" />
+          </dependency>
+          <dependency
+            Id="b25343e3-945a-4248-a5bf-59d9dc1fa218">
+            <classMoniker
+              Id="da3d71e4-10c0-49dd-b994-7d1fb1bfe3dd"
+              LastKnownName="AmericanNewGameStrategy"
+              LastKnownLocation="Package4_1029.uml" />
+          </dependency>
+        </suppliersInternal>
         <ownedOperationsInternal>
           <operation
             Id="522aa2bf-48a4-4e50-9487-02a96f917d2c"
