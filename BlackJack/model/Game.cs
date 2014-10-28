@@ -16,13 +16,11 @@ namespace BlackJack.model
             m_player = new Player();
         }
 
-        // VÅRAN KOD
         public model.Dealer getDealer()
         {
             return m_dealer;
         }
 
-        // VÅRAN KOD
         public model.Player getPlayer()
         {
             return m_player;
@@ -50,7 +48,6 @@ namespace BlackJack.model
 
         public bool Stand()
         {
-            // VÅRAN KOD
             return m_dealer.Stand();
         }
 

@@ -20,6 +20,5 @@ namespace BlackJack.model.rules
 
             return a_dealer.CalcScore() >= a_player.CalcScore();
         }
-        
     }
 }

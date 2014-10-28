@@ -12,16 +12,12 @@ namespace BlackJack.model
 
         private rules.INewGameStrategy m_newGameRule;
         private rules.IHitStrategy m_hitRule;
-
-        // EGEN KOD
         private rules.IWinnerStrategy m_winnerRule;
 
         public Dealer(rules.RulesFactory a_rulesFactory)
         {
             m_newGameRule = a_rulesFactory.GetNewGameRule();
             m_hitRule = a_rulesFactory.GetHitRule();
-
-            // EGEN KOD
             m_winnerRule = a_rulesFactory.GetWinnerRule();
         }
 
@@ -41,19 +37,7 @@ namespace BlackJack.model
         {
             if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver())
             {
-                
-                // TEST
                 DealCardTo(a_player);
-                                
-                // WORKING
-                //Card c = m_deck.GetCard();
-                //c.Show(true);
-                //a_player.DealCard(c);
-                
-                //OLD
-                //DealCard(c);
-                //Card c = DealCard();
-
 
                 return true;
             }
@@ -70,28 +54,19 @@ namespace BlackJack.model
             {
                 return true;
             }
+
             return false;
         }
 
         public bool Stand()
         {
-            // VÅRAN KOD
             if (m_deck != null)
             {
                 ShowHand();
 
                 while (m_hitRule.DoHit(this))
                 {
-                    //TEST
                     DealCardTo(this);
-                    
-                    // WORKING
-                    //Card c = m_deck.GetCard();
-                    //c.Show(true);
-                    //DealCard(c);
-                    
-                    //OLD
-                    //DealCard();
                 }
 
                 return true;
@@ -99,13 +74,6 @@ namespace BlackJack.model
 
             return false;
         }
-        //private Card DealCard()
-        //{
-        //    Card c = m_deck.GetCard();
-        //    c.Show(true);
-        //    DealCard(c);
-        //    return c;
-        //}
 
         private void DealCardTo(Player playerType) {
             Card c = m_deck.GetCard();

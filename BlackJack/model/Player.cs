@@ -13,8 +13,7 @@ namespace BlackJack.model
         public void DealCard(Card a_card)
         {
             m_hand.Add(a_card);
-
-            // VÅRAN KOD 
+            
             NotifyObservers();
         }
 
@@ -63,27 +62,23 @@ namespace BlackJack.model
             return score;
         }
 
-
-        // VÅRAN KOD
         public void RegisterObserver(IObserver observer)
         {
             listOfObservers.Add(observer);
         }
 
-        // VÅRAN KOD
+        public void RemoveObserver(IObserver observer)
+        {
+            int index = listOfObservers.IndexOf(observer);
+            listOfObservers.RemoveAt(index);
+        }
+        
         public void NotifyObservers()
         {
             foreach (IObserver observer in listOfObservers)
             {
                 observer.UpdateObserver();
             }
-        }
-
-        // VÅRAN KOD
-        public void RemoveObserver(IObserver observer)
-        {
-            int i = listOfObservers.IndexOf(observer);
-            listOfObservers.RemoveAt(i);
         }
     }
 }

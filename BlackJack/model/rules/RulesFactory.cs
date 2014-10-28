@@ -11,7 +11,6 @@ namespace BlackJack.model.rules
         {
             //return new BasicHitStrategy();
             
-            // VÅRAN KOD
             return new SoftSeventeenHitStrategy();
         }
 
@@ -25,10 +24,7 @@ namespace BlackJack.model.rules
         {
             //return new DealerWinsOnEqualStrategy();
 
-            // VÅRAN KOD
             return new PlayerWinsOnEqualStrategy();
         }
-
-
     }
 }

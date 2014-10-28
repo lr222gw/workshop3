@@ -8,75 +8,61 @@ namespace BlackJack.controller
 {
     class PlayGame : model.IObserver
     {
-        // m eller a???
-        model.Game a_game;
-        view.IView a_view;
+        model.Game m_game;
+        view.IView m_view;
 
-        public bool Play(model.Game a_game, view.IView a_view)
+        public PlayGame(model.Game a_game, view.IView a_view)
         {
-            // TEST
-            this.a_game = a_game;
-            this.a_view = a_view;
+            m_game = a_game;
+            m_view = a_view;
+        }
 
-            // VÅR KOD
-            model.Dealer dealer = a_game.getDealer();
+        public bool Play()
+        {
+            model.Dealer dealer = m_game.getDealer();
             dealer.RegisterObserver(this);
 
-            // VÅR KOD
-            model.Player player = a_game.getPlayer();
+            model.Player player = m_game.getPlayer();
             player.RegisterObserver(this);
-
-            //a_view.DisplayWelcomeMessage();
             
-            //a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
-            //a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
-
-            //if (a_game.IsGameOver())
-            //{
-            //    a_view.DisplayGameOver(a_game.IsDealerWinner());
-            //}
-
             ShowGame();
             
-            int input = a_view.GetInput();
+            int input = m_view.GetInput();
 
             if (input == (char)view.Choice.Play)
             {
-                a_game.NewGame();
+                m_game.NewGame();
             }
             else if (input == (char)view.Choice.Hit)
             {
-                a_game.Hit();
+                m_game.Hit();
             }
             else if (input == (char)view.Choice.Stand)
             {
-                a_game.Stand();
+                m_game.Stand();
             }
 
-            // VÅR KOD
             dealer.RemoveObserver(this);
             player.RemoveObserver(this);
 
             return input != (char)view.Choice.Quit;
         }
-  
-        // VÅR KOD
+
+        private void ShowGame()
+        {
+            m_view.DisplayWelcomeMessage();
+            m_view.DisplayDealerHand(m_game.GetDealerHand(), m_game.GetDealerScore());
+            m_view.DisplayPlayerHand(m_game.GetPlayerHand(), m_game.GetPlayerScore());
+
+            if (m_game.IsGameOver())
+            {
+                m_view.DisplayGameOver(m_game.IsDealerWinner());
+            }
+        }
+
         public void UpdateObserver() {
             ShowGame();
             Thread.Sleep(1500);
-        }
-
-        // VÅR REFACTORING
-        private void  ShowGame() {
-            a_view.DisplayWelcomeMessage();
-
-            a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
-            a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
-
-            if (a_game.IsGameOver())
-            {
-                a_view.DisplayGameOver(a_game.IsDealerWinner());
-            }
         }
     }
 }

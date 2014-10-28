@@ -55,13 +55,11 @@ namespace BlackJack.view
                 System.Console.WriteLine("Du vann!");
             }
         }
-
         private void DisplayHand(String a_name, IEnumerable<model.Card> a_hand, int a_score)
         {
             System.Console.WriteLine("{0} Har: ", a_name);
             foreach (model.Card c in a_hand)
             {
-
                 DisplayCard(c);
             }
             System.Console.WriteLine("Poäng: {0}", a_score);
