@@ -28,7 +28,7 @@ namespace BlackJack.model
                 m_deck = new Deck();
                 ClearHand();
                 a_player.ClearHand();
-                return m_newGameRule.NewGame(m_deck, this, a_player);   
+                return m_newGameRule.NewGame(this, a_player);   
             }
             return false;
         }
@@ -75,10 +75,17 @@ namespace BlackJack.model
             return false;
         }
 
-        private void DealCardTo(Player playerType) {
+        public void DealCardTo(Player playerType, bool showCard = true)
+        {
             Card c = m_deck.GetCard();
-            c.Show(true);
+            c.Show(showCard);
             playerType.DealCard(c);
         }
+        
+        //private void DealCardTo(Player playerType) {
+        //    Card c = m_deck.GetCard();
+        //    c.Show(true);
+        //    playerType.DealCard(c);
+        //}
     }
 }
